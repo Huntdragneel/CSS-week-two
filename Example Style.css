@@ -1,0 +1,39 @@
+/* NOTE can link  this CSS document by typing <link rel="stylesheet" href="style.css"> in the head of the code */
+/* NOTE just type the style attributes in the space below like in the head of internal CSS example */
+section {
+  color: darkgray;
+  background-color: darkblue;
+}
+/* NOTE color changes the text color, and background-color in this instance is only impacting the background of the section area */
+
+#Main-Paragraph {
+  font-size: 30px;
+  height: 30px;
+}
+/* NOTE font-size is impacting text size, text-align is putting the text in the center, height is impacting the height of the main tag  */
+/* NOTE also this style is only impacting the tag with the id of Main-paragraph */
+
+p {
+  text-shadow: rgb(231, 10, 47) 1px 1px;
+  font-size: 20px;
+  text-align: center;
+}
+/* NOTE text-shadow is defining the color and size of the shadow, font-size is impacting the text size, text-align is telling the text to go in the center */
+
+.bordered {
+  border-color: black;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 20px;
+}
+/* NOTE border-color changes the border color, border-radius changed the corners to have a radius of #px, border-style is defining the shape of the border, border-width is changing the thickness of the border*/
+/* NOTE this is also another id that is based on a section*/
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.float{
+    float: right;
+}

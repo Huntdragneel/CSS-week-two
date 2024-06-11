@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EX CSS</title>
+    <link rel="stylesheet" href="Example Style.css" />
+  </head>
+  <body>
+    <h1>Internal CSS Examples</h1>
+
+    <main class="bordered">
+      <!-- NOTE Importnant info -->
+      <p id="Main-Paragraph">
+        All styles being shown here are located in the Example Style CSS
+        document.
+      </p>
+      <p>This is the prefered method for multipage websites.</p>
+    </main>
+
+    <section class="bordered">
+      <!-- SECTION internal style mods  -->
+      <h3>List of Style Modifications</h3>
+
+      <p>Lists of actvie styles applied in this section.</p>
+      <ul>
+        <li>color changed the text color</li>
+        <li>background-color changed the background color</li>
+        <li>
+          border-color changed the border color but border-style has to be
+          defined in order to have an impact
+        </li>
+        <li>border-radius makes the edges of the border curved</li>
+        <li>
+          text-shadow gives the desired text a shadow of your color of chosing
+          (applied to the text above the list)
+        </li>
+        <li>
+          font-size changes the size of the text (applied to the text above the
+          list)
+        </li>
+        <li>
+          both the main tag and section tag for this page have a CSS class that
+          was created in the opening tag called bordered. It had the border as a solid, curved, with a width of 20px, and black
+        </li>
+        <li>id style changes override tag changes</li>
+        <li>all p and h1 tags have text-align: center</li>
+      </ul>
+      <!-- !SECTION -->
+    </section>
+
+    <section class="bordered">
+      <em class="float">Here is some example text that the style of float will be used on.</em>
+    </section>
+  </body>
+</html>
